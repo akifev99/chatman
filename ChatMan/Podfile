@@ -1,0 +1,23 @@
+platform :ios, ’11.0’
+source 'https://github.com/CocoaPods/Specs.git' 
+use_frameworks!
+
+target ‘ChatMan’ do
+project ‘/Users/makifev/Documents/ChatMan/ChatMan.xcodeproj’
+  pod 'AFNetworking', '~> 2.6'
+  pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON’
+  pod 'PHFComposeBarView', '~> 2.0.1'
+end
+
+
+target ‘ChatManExt’ do
+project ‘/Users/makifev/Documents/ChatMan/ChatMan.xcodeproj’
+  pod 'SwiftyJSON’
+  pod 'PHFComposeBarView', '~> 2.0.1'
+  pod 'Alamofire', '~> 4.0'
+end
+
+
+
+
